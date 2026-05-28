@@ -1,0 +1,72 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": ["Hello! How can I help you?", "Hey there!", "Hi! What's up?"]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["bye", "goodbye", "see you", "quit", "exit"],
+      "responses": ["Goodbye!", "See you later!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "appreciate it"],
+      "responses": ["You're welcome!", "Anytime!", "Happy to help!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["weather", "temperature", "forecast", "raining"],
+      "responses": ["I can't check live weather, but try weather.com!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "who are you", "your name"],
+      "responses": ["I'm BotNLP, your intelligent assistant!"]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "what can you do",
+        "help",
+        "how can you help",
+        "what do you know",
+        "what are your features",
+        "show me what you can do",
+        "capabilities"
+      ],
+      "responses": [
+        "I can chat with you, answer questions about greetings, weather, and more. Just ask me anything!"
+      ]
+    },
+    {
+      "tag": "status",
+      "patterns": [
+        "what are you doing",
+        "what are you up to",
+        "how are you",
+        "how are you doing",
+        "are you okay"
+      ],
+      "responses": [
+        "I'm doing great, ready to help you!",
+        "Just waiting for your next question — ask away!",
+        "All good on my end! What would you like to know?"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell me a joke",
+        "joke",
+        "make me laugh",
+        "say something funny"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I told my computer I needed a break. Now it won't stop sending me Kit-Kat ads."
+      ]
+    }
+  ]
+}
